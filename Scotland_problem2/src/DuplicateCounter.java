@@ -54,7 +54,7 @@ for(Map.Entry<String, Integer> entry : map.entrySet())
 {
 pw.write(entry.getKey() + " occurs " + entry.getValue() + " times" + System.lineSeparator());
 }
-System.out.println("Map data written to file: " + outputFile);
+System.out.println("Data written to file: " + outputFile);
 pw.flush();
 fw.close();
 pw.close();
